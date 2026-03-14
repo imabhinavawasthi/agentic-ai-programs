@@ -1,0 +1,3 @@
+Hello, this is Abhinav.
+I am learning Python file handling.
+This is the third line.
