@@ -17,3 +17,5 @@ except json.JSONDecodeError as e:
     print("JSON decode error:", e)
 except Exception as e:
     print("An unexpected error occurred:", e)
+finally:
+    print("Execution completed.")
