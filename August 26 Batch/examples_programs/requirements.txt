@@ -1,0 +1,8 @@
+requests==2.31.0
+jsonschema==4.19.0
+numpy
+
+# steps to setup a python project:
+# 1. create a virtaul env with steps given before.
+# 2. install all the dependencies using the command:
+#    pip install -r requirements.txt
