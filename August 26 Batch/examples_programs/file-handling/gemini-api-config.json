@@ -1,0 +1,6 @@
+{
+    "token": "token",
+    "endpoint": "https://api.gemini.com/v1",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "user_id": 1233132
+}
