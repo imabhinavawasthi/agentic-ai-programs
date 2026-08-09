@@ -1,0 +1,5 @@
+{
+    "model": "gpt-3",
+    "prompt": "Tell me the capital of India",
+    "instructors": "Output should be in given format"
+}
