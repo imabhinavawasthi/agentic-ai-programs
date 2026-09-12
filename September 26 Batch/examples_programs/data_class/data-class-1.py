@@ -1,4 +1,5 @@
 from dataclasses import dataclass, asdict
+
 @dataclass
 class GeminiInput:
     model: str
@@ -18,6 +19,8 @@ input = GeminiInput(
     prompt="What is OOPs?",
     tokens=100
 )
+
+input.model = "3.8-pro"
 
 print(asdict(input))
 
