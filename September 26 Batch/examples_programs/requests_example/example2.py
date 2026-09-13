@@ -2,13 +2,13 @@ import json
 import requests
 
 api_endpoint = "https://pokeapi.co/api/v2/pokemon/ditto"
-headers = {
-    'accept': 'application/json, text/plain, */*'
-}
+# headers = {
+#     'accept': 'application/json, text/plain, */*'
+# }
 
 # GET
 try:
-    response = requests.get(api_endpoint, headers=headers)
+    response = requests.get(api_endpoint)
 
     # response.raise_for_status() # not successfull
     data = response.json()
