@@ -18,3 +18,10 @@ agentConfig = AgentConfig(
 print(agentConfig)
 print(type(agentConfig))
 print(asdict(agentConfig))
+
+# {
+#     "model": "gemini",
+#     "max_tokens": 100,
+#     "temperature": 123,
+#     "user_id": "54365tf"
+# }

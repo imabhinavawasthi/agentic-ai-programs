@@ -22,3 +22,11 @@ rollNo = [1,2,3,4,5]
 names = ["Abhinav", "Aman", "Rahul", "Yash", "Yuvraj"]
 
 print(dict(zip(rollNo, names)))
+
+# {
+#     1: "Abhinav",
+#     2: "Aman",
+#     3: "Rahul",
+#     4: "Yash",
+#     5: "Yuvraj"
+# }
